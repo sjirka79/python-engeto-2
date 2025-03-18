@@ -354,7 +354,7 @@ if __name__ == "__main__":
         "Total stats (time ordered)": [Stats.stats_print, "TOTAL STATS (BY TIME)", ["time", False]],
         "Total stats (name ordered)": [Stats.stats_print, "TOTAL STATS (BY NAME)", ["name", False]],
         "Total stats (date ordered)": [Stats.stats_print, "TOTAL STATS (BY DATE)", ["date", False]],
-        "Exit": [Stats.Stats_exit, "", ""]        
+        "Back to MAIN MENU": [Stats.Stats_exit, "", ""]        
         }
     stats_menu = AppCore("STATISTICS", MENU_STATS)
     
